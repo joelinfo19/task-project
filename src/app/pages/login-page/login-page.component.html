@@ -1,0 +1,12 @@
+<app-navbar [logo_image_rute]="'../../../assets/user-solid.svg'"></app-navbar>
+
+<div class="container-fluid">
+	<div class="row d-flex">
+		<div class="col-sm-12 col-md-3 order-md-1 bg-success">
+			<app-sidebar [isLogin]="true"></app-sidebar>
+		</div>
+		<div class="col-sm-12 col-md-9 bg-primary">
+			<app-main [isLogin]="true"></app-main>
+		</div>
+	</div>
+</div>
